@@ -11,7 +11,7 @@ body {
     background-color: #E0E0E0;
 }
 
-.container {
+.page {
     width: 1440px;
     height: 1024px;
     background-color: #fdfeff;
@@ -48,7 +48,7 @@ body {
     line-height: 32px;
 }
 
-.primary-button {
+.content__button {
     padding: 24px 56px 24px 56px;
     background-color: #333;
     border-radius: 40px;
@@ -61,7 +61,7 @@ body {
     color: #fff;
 }
 
-.primary-button:hover {
+.content__button:hover {
     background-color: #555;
 }
 
