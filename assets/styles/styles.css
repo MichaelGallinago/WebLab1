@@ -19,7 +19,7 @@ body {
     justify-content: space-between;
 }
 
-.left-section {
+.information {
     max-width: 575px;
     max-height: 1px;
     display: flex;
@@ -70,6 +70,7 @@ body {
     margin-left: 80px;
     gap: 24px;
     max-width: 492px;
+
 }
 
 .badge {
@@ -79,8 +80,6 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    text-align: center;
-    flex-direction: column;
     border: 1px solid;
 }
 
@@ -118,24 +117,18 @@ body {
     fill: #333;
 }
 
-.info-boxes-border {
+.info-box {
+    padding: 29px 36px 29px 36px;
     border: 1px solid;
     border-radius: 32px;
     max-width: 492px;
     max-height: 136px;
-}
-
-.info-boxes-border {
     margin-left: 80px;
-}
-
-.info-boxes {
-    margin: 29px 36px;
     gap: 64px;
     display: flex;
 }
 
-.info-box {
+.info-box__information {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -144,7 +137,7 @@ body {
     text-align: left;
 }
 
-.info-box h4 {
+.info-box__information h4 {
     font-size: 22px;
     font-weight: 500;
 }
@@ -163,14 +156,14 @@ body {
     object-fit: cover;
 }
 
-.image-column-left {
+.image-gallery__column_side_left {
     display: flex;
     flex-direction: column;
     gap: 48px;
     margin-bottom: 92px;
 }
 
-.image-column-right {
+.image-gallery__column_side_right {
     display: flex;
     flex-direction: column;
     gap: 48px;
