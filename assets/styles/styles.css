@@ -13,10 +13,10 @@ body {
 
 .page {
     width: 1440px;
-    height: 1024px;
     background-color: #fdfeff;
     display: flex;
     justify-content: space-between;
+    padding: 98px 80px 90px 80px;
 }
 
 .information {
@@ -32,23 +32,22 @@ body {
     flex-direction: column;
     gap: 24px;
     text-align: left;
-    margin-top: 132px;
-    margin-left: 80px;
+    padding-top: 34px;
 }
 
-.content__title {
+.title {
     font-size: 64px;
     font-weight: 600;
     line-height: 76px;
 }
 
-.content__paragraph {
+.paragraph {
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
 }
 
-.content__button {
+.button {
     padding: 24px 56px 24px 56px;
     background-color: #333;
     border-radius: 40px;
@@ -61,16 +60,14 @@ body {
     color: #fff;
 }
 
-.content__button:hover {
+.button:hover {
     background-color: #555;
 }
 
 .badges {
     display: flex;
-    margin-left: 80px;
     gap: 24px;
     max-width: 492px;
-
 }
 
 .badge {
@@ -94,15 +91,15 @@ body {
     letter-spacing: 4px;
 }
 
-.badge.badge_color_blue {
+.badge.badge_color-blue {
     background-color: #c0d9dd;
 }
 
-.badge.badge_color_orange {
+.badge.badge_color-orange {
     background-color: #ffc671;
 }
 
-.badge.badge_color_pink {
+.badge.badge_color-pink {
     background-color: #f9deec;
 }
 
@@ -112,7 +109,6 @@ body {
     border-radius: 32px;
     max-width: 492px;
     max-height: 136px;
-    margin-left: 80px;
     gap: 64px;
     display: flex;
 }
@@ -132,11 +128,9 @@ body {
 }
 
 .image-gallery {
-    margin-top: 98px;
     display: flex;
     flex-direction: row;
     gap: 48px;
-    margin-right: 80px;
 }
 
 .image-gallery__image {
